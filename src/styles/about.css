@@ -1,0 +1,54 @@
+/* about__me article */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+	margin: var(--spacing-large) auto;
+}
+
+.about__separator {
+  margin: 0 var(--spacing-normal);
+}
+
+.about__me {
+  flex: 1;
+}
+
+.about__me button {
+  margin-top: var(--spacing-normal);
+  margin-left: 60%;
+  padding: var(--spacing-small);
+  border-radius: var(--spacing-extra-small);
+  border: none;
+  font-weight: bold;
+  background: var(--gradient);
+  outline: none;
+  transition: 800ms;
+}
+
+.about__me button:hover {
+  background: var(--bg-color-1);
+  box-shadow: var(--shadow);
+}
+
+.about span {
+  margin-left: var(--spacing-normal);
+  padding: var(--spacing-extra-small);
+  border-radius: 50%;
+  color: var(--bg-color-1);
+  background-color: var(--primary-color);
+}
+
+.about__services {
+  flex: 1;
+}
+
+/* hr vertical separator */
+.about__separator {
+  border: 1px solid var(--bg-color-1);
+}
+
+/* about__services article */
+
+.about__services span {
+  margin-right: var(--spacing-normal);
+}

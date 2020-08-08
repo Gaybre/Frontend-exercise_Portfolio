@@ -1,0 +1,47 @@
+.slider {
+  position: relative;
+  width: 100%;
+	margin: var(--spacing-large) auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 200%;
+	animation: cambio 5s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+  list-style: none;
+  text-align: center;
+}
+
+.slider img {
+  width: 95%;
+}
+
+.slider__navigation {
+  position: absolute;
+  font-weight: bold;
+  font-size: 5rem;
+  color: var(--primary-color);
+  top: 40%;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	40% {margin-left: 0;}
+	
+	60% {margin-left: -100%;}
+	100% {margin-left: -100%;}
+}

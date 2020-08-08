@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer span {
+  color: var(--primary-color);
+}
+
+.footer span:hover {
+  text-decoration: underline;
+}

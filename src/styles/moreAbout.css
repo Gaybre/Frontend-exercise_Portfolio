@@ -1,0 +1,52 @@
+/* moreabout general styles */
+.moreAbout {
+  display: flex;
+  flex-wrap: wrap;
+	margin: var(--spacing-large) auto;
+}
+
+.moreAbout article {
+  flex: 1;
+  margin-right: var(--spacing-normal);
+}
+
+.moreAbout hr {
+  margin: var(--spacing-normal) 0;
+  width: 80%;
+  border: 1px solid var(--secondary-color);
+}
+
+.moreAbout .entry:hover {
+  transition: 300ms;
+}
+
+.moreAbout .entry:hover {
+  border-left: 2px solid var(--secondary-color);
+  padding-left: var(--spacing-small);
+}
+
+.moreAbout .details {
+  font-weight: normal;
+}
+
+/* Socialmedia article */
+.moreAbout__socialmedia-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.moreAbout__socialmedia-links a {
+  margin-bottom: var(--spacing-small);
+  color: var(--primary-color);
+}
+
+.moreAbout__socialmedia-links a:hover {
+  text-decoration: underline;
+}
+
+.moreAbout__socialmedia img {
+  width: 30px;
+  float: left;
+  margin-right: var(--spacing-small);;
+}
