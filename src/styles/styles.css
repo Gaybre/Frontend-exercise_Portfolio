@@ -1,3 +1,5 @@
+/* All variables such as color, spacing, shadow and static/global values are in global.css */
+
 @import './global.css';
 @import './nav.css';
 @import './hero.css';

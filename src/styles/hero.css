@@ -2,6 +2,7 @@
   color: var(--primary-color);
   font-size: 1.2rem;
 }
+
 .hero span {
   color: var(--secondary-color);
 }

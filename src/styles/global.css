@@ -19,15 +19,15 @@ html {
 }
 
 body {
-  background: var(--gradient);
   font-size: 1rem;
   color: var(--black-color);
   font-weight: bold;
+  background: var(--gradient);
 }
 
 h2 {
-  font-weight: 800;
   font-size: 3rem;
+  font-weight: 800;
 }
 
 a {
@@ -46,12 +46,12 @@ a {
 }
 
 .title-1 {
-  color: var(--primary-color);
   margin-bottom: -20px;
+  color: var(--primary-color);
 }
 
 .title-2 {
-  color: var(--secondary-color);
   margin-left: var(--spacing-extra-large);
   margin-bottom: var(--spacing-normal);
+  color: var(--secondary-color);
 }
